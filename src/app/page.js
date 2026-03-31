@@ -4,6 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useCart } from "@/context/CartContext";
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
